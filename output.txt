@@ -1,0 +1,69 @@
+/usr/local/bin/python3.8 /Users/james/CS550/A4/dolphin_clicks/dolphin_id.py
+Extracting information about files and loading features for  49 recordings.
+Reading file 0/49
+Reading file 25/49
+Extracting information about files and loading features for  81 recordings.
+Reading file 0/81
+Reading file 25/81
+Reading file 50/81
+Reading file 75/81
+
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 100)               2100      
+                                                                 
+ dense_1 (Dense)             (None, 100)               10100     
+                                                                 
+ dense_2 (Dense)             (None, 100)               10100     
+                                                                 
+ dense_3 (Dense)             (None, 2)                 202       
+                                                                 
+=================================================================
+Total params: 22,502
+Trainable params: 22,502
+Non-trainable params: 0
+_________________________________________________________________
+None
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 100)               2100      
+                                                                 
+ dense_1 (Dense)             (None, 100)               10100     
+                                                                 
+ dense_2 (Dense)             (None, 100)               10100     
+                                                                 
+ dense_3 (Dense)             (None, 2)                 202       
+                                                                 
+=================================================================
+Total params: 22,502
+Trainable params: 22,502
+Non-trainable params: 0
+_________________________________________________________________
+None
+Epoch 1/10
+93/93 [==============================] - 1s 1ms/step - loss: 2.8755 - accuracy: 0.7028
+Epoch 2/10
+93/93 [==============================] - 0s 1ms/step - loss: 1.8934 - accuracy: 0.8002
+Epoch 3/10
+93/93 [==============================] - 0s 1ms/step - loss: 1.6486 - accuracy: 0.8120
+Epoch 4/10
+93/93 [==============================] - 0s 1ms/step - loss: 1.4512 - accuracy: 0.8321
+Epoch 5/10
+93/93 [==============================] - 0s 1ms/step - loss: 1.3559 - accuracy: 0.8238
+Epoch 6/10
+93/93 [==============================] - 0s 1ms/step - loss: 1.2159 - accuracy: 0.8504
+Epoch 7/10
+93/93 [==============================] - 0s 1ms/step - loss: 1.1131 - accuracy: 0.8669
+Epoch 8/10
+93/93 [==============================] - 0s 1ms/step - loss: 1.0236 - accuracy: 0.8804
+Epoch 9/10
+93/93 [==============================] - 0s 1ms/step - loss: 0.9678 - accuracy: 0.8763
+Epoch 10/10
+93/93 [==============================] - 0s 1ms/step - loss: 0.9335 - accuracy: 0.8653
+The amount of correct predictions is:  3422
+The accuracy is:  71.8756563747112 %
+218/218 [==============================] - 0s 843us/step - loss: 1.1163 - accuracy: 0.7510
